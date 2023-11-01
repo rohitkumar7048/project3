@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Wage Workers Hub</title>
+    <link rel="stylesheet" href="home.css"> <!-- Link to your CSS file for styling -->
+</head>
+<body>
+    <header>
+        <h1>Welcome to Daily Wage Workers Hub</h1>
+        <p>Find Daily Wage Jobs Near You</p>
+    </header>
+
+    
+
+    <section class="hero-image">
+        <img src="image4.jpeg" alt="Daily Wage Workers">
+    </section>
+
+    <section class="search-jobs">
+        <h2>Search for Daily Wage Jobs</h2>
+        <form action="home.php" method="get">
+            <input type="text" name="job_title" placeholder="Enter Job Title" required>
+            <input type="text" name="location" placeholder="Location" required>
+            
+            <a href="search.html" button type="submit">Search</button> </a>
+        </form>
+    </section>
+
+    <section class="featured-jobs">
+        <h2>Featured Jobs</h2>
+        <ul>
+            <li>
+                <img src="plummer.jpeg" alt="Job 1">
+                <a href="job-details.html">Plummer</a>
+            </li>
+            <li>
+                <img src="electrician.jpeg" alt="Job 2">
+                <a href="job-details.html">Electrician</a>
+            </li>
+            <li>
+                <img src="carpenter.jpeg" alt="Job 3">
+                <a href="job-details.html">Carpenter</a>
+            </li>
+        </ul>
+    </section>
+
+    <section class="about-us">
+        <h2>About Us</h2>
+        <p>Daily Wage Workers Hub is your trusted platform for finding daily wage jobs and temporary work opportunities. We connect workers with employers, making job searching simple and efficient.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Daily Wage Workers Hub</p>
+    </footer>
+    <script src ="home.js"></script>
+    <?php include("home.php"); ?>
+</body>
+</html>
